@@ -79,7 +79,7 @@ useEffect(() => {
           </h1>
 
           <p className="mt-8 text-xl">16 de octubre de 2027</p>
-          <p className="mt-2 text-lg">Hard Rock Vallarta</p>
+      
 
           <a
             href="#bienvenida"
