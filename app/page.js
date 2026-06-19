@@ -205,8 +205,6 @@ useEffect(() => {
     <details className="mt-8 bg-white/35 rounded-2xl p-5 text-left">
       <summary className="cursor-pointer text-[#B76E5D] text-xl font-semibold text-center">
         Ver tarifas de hospedaje
-        
-        TODO INCLUIDO
       </summary>
 
       <div className="mt-6 space-y-4 text-gray-700 text-center">
@@ -247,6 +245,9 @@ useEffect(() => {
             
           </p>
         </div>
+        <p className="mt-4 text-center text-gray-600 italic">
+  Todas las tarifas incluyen hospedaje y plan todo incluido.
+</p>
       </div>
     </details>
 
