@@ -100,10 +100,9 @@ useEffect(() => {
           </h2>
 
           <p className="text-lg text-gray-700 leading-8">
-            Existen personas que forman parte de nuestra historia de maneras muy
-            especiales. Hoy queremos reunirlas para celebrar el inicio de una
-            nueva etapa y compartir uno de los días más importantes de nuestras
-            vidas.
+            Hay personas que hacen nuestra historia más bonita.
+            <p className="text-lg text-gray-700 leading-8"></p>
+             Tú eres una de ellas, y nos encantaría compartir este día contigo.
           </p>
         </div>
       </section>
@@ -285,7 +284,7 @@ useEffect(() => {
     </p>
 
     <p className="text-lg text-gray-700 leading-8">
-     Sientéte libre de usar el color que prefieras, sólo te pedimos evitar el color blanco, ya que está reservado para la novia.
+     Siéntete libre de usar el color que prefieras, sólo te pedimos evitar el color blanco, ya que está reservado para la novia.
     </p>
   </div>
 </section><section className="min-h-screen flex items-center justify-center px-8 py-24">
@@ -296,15 +295,19 @@ useEffect(() => {
       Confirma tu asistencia
     </h2>
 
-    <p className="text-lg text-gray-700 leading-8 mb-8">
-      Nos encantará celebrar contigo.
-      <p className="mt-6 text-[#B76E5D] text-2xl"></p>
-Agradeceremos confirmar tu asistencia
-antes del
-<p className="mt-6 text-[#B76E5D] text-2xl"></p>
-15 de agosto de 2027
-    </p>
+    <div className="text-lg text-gray-700 leading-8 mb-8">
+  <p>
+    Nos encantará celebrar contigo.
+  </p>
 
+  <p className="mt-6">
+    Agradeceremos confirmar tu asistencia antes del
+  </p>
+
+  <p className="mt-4 text-[#B76E5D] text-2xl">
+    15 de agosto de 2027
+  </p>
+</div>
     <a
       href="https://wa.me/523338146428?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Ver%C3%B3nica%20y%20Moris.%0A%0ANombre%3A%0AN%C3%BAmero%20de%20asistentes%3A"
       target="_blank"
