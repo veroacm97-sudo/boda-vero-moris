@@ -185,7 +185,6 @@ useEffect(() => {
       </section>
 <section className="min-h-screen flex items-center justify-center px-8 py-24">
   <div className="max-w-2xl text-center pb-16 bg-[#F8F4EE]/75 backdrop-blur-md rounded-3xl p-10 shadow-xl">
-   
     <h2 className="text-5xl text-[#B76E5D] mb-8">
       Hospedaje
     </h2>
@@ -196,41 +195,53 @@ useEffect(() => {
       Hard Rock Vallarta, donde también podrás hospedarte
       para disfrutar cada momento con nosotros.
     </p>
-<div className="mt-10 space-y-4 text-gray-700">
 
-  <div className="bg-white/25 rounded-2xl p-4">
-    <p className="text-[#B76E5D] text-xl font-semibold">
-      Adulto (base doble)
-    </p>
-    <p>$9,406 MXN por persona</p>
-    <p className="text-sm text-gray-500">
-      13 mensualidades de $662 MXN
-    </p>
-  </div>
+    <details className="mt-8 bg-white/35 rounded-2xl p-5 text-left">
+      <summary className="cursor-pointer text-[#B76E5D] text-xl font-semibold text-center">
+        Ver tarifas de hospedaje
+      </summary>
 
-  <div className="bg-white/25 rounded-2xl p-4">
-    <p className="text-[#B76E5D] text-xl font-semibold">
-      Junior (13 a 17 años)
-    </p>
-    <p>$3,600 MXN</p>
-    <p className="text-sm text-gray-500">
-      13 mensualidades de $246.15 MXN
-    </p>
-  </div>
-
-  <div className="bg-white/35
-   rounded-2xl p-4">
-    <p className="text-[#B76E5D] text-xl font-semibold">
-      Menores (4 a 12 años)
-    </p>
-    <p className="text-green-600 font-semibold">
-      ¡GRATIS!
-    </p>
-  </div>
-
+      <div className="mt-6 space-y-4 text-gray-700 text-center">
+        <div className="flex justify-center mb-6">
+  <img
+    src="/images/hard-rock-vallarta.jpg"
+    alt="Hard Rock Vallarta"
+    className="w-full max-w-md rounded-2xl shadow-md"
+  />
 </div>
-    <p className="text-[#B76E5D] text-xl">
-      Hard Rock Vallarta
+        <div className="bg-white/25 rounded-2xl p-4">
+          <p className="text-[#B76E5D] text-xl font-semibold">
+            Adulto (base doble)
+          </p>
+          <p>$9,406 MXN por persona</p>
+          <p className="text-sm text-gray-500">
+            13 mensualidades de $662 MXN
+          </p>
+        </div>
+
+        <div className="bg-white/25 rounded-2xl p-4">
+          <p className="text-[#B76E5D] text-xl font-semibold">
+            Junior (13 a 17 años)
+          </p>
+          <p>$3,600 MXN</p>
+          <p className="text-sm text-gray-500">
+            13 mensualidades de $246.15 MXN
+          </p>
+        </div>
+
+        <div className="bg-white/35 rounded-2xl p-4">
+          <p className="text-[#B76E5D] text-xl font-semibold">
+            Menores (4 a 12 años)
+          </p>
+          <p className="text-green-600 font-semibold">
+            ¡GRATIS!
+          </p>
+        </div>
+      </div>
+    </details>
+
+    <p className="mt-8 text-[#B76E5D] text-xl">
+      .
     </p>
   </div>
 </section>
@@ -303,26 +314,78 @@ antes del
     </a>
    </div>
 </section>
-
 <section className="min-h-screen flex items-center justify-center px-8 py-24">
-  <div className="w-full max-w-2xl text-center bg-[#F8F4EE]/75 backdrop-blur-md rounded-3xl p-12 py16 shadow-xl">
+  <div className="max-w-2xl text-center bg-[#F8F4EE]/75 backdrop-blur-md rounded-3xl p-10 shadow-xl">
+    <h2 className="text-5xl text-[#B76E5D] mb-8">
+      Reservaciones
+    </h2>
 
-    <h2 className="text-3xl md:text-5xl text-[#B76E5D] mb-10 leading-tight">
-  Tu presencia
-  <br />
-  es nuestro mejor regalo
-</h2>
-
-    <p className="text-lg text-gray-700 leading-8">
-      Nos sentimos afortunados de compartir este día
-        <br />
-       con las personas que más queremos.
-      <br /><br />
-      Gracias por acompañarnos y formar parte 
-        <br />
-      de este momento tan especial en nuestras vidas.
+    <p className="text-lg text-gray-700 leading-8 mb-8">
+      Para generar tu reserva, favor de comunicarte directamente con la agencia
+      encargada de nuestra logística de hospedaje.
     </p>
 
+    <details className="mt-8 bg-white/35 rounded-2xl p-5 text-left">
+      <summary className="cursor-pointer text-[#B76E5D] text-xl font-semibold text-center">
+        Ver datos de la agencia
+      </summary>
+
+      <div className="mt-6 text-gray-700 leading-8 text-center space-y-4">
+        <p className="font-semibold text-[#B76E5D] text-xl">
+  ER Viajes & Bodas
+</p>
+
+<p>
+  Registro Nacional de Turismo:
+  <br />
+  0414120c17c91
+</p>
+
+<div className="bg-white/30 rounded-2xl p-4">
+  <p className="font-semibold">BBVA</p>
+  <p>0110870714</p>
+</div>
+
+<div className="bg-white/30 rounded-2xl p-4">
+  <p className="font-semibold">Santander</p>
+  <p>65507328775</p>
+</div>
+
+<div className="bg-white/30 rounded-2xl p-4">
+  <p className="font-semibold">
+    Pagos desde el extranjero
+  </p>
+  <a>
+    href="https://paypal.me/erviajes"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#B76E5D] underline"
+    paypal.me/erviajes
+  </a>
+</div>
+
+<div className="bg-[#B76E5D]/10 rounded-2xl p-5">
+  <p className="font-semibold">
+    Es importante reservar por medio de la agencia,
+    ya que es quien tiene nuestro contrato.
+  </p>
+
+  <p className="mt-3">
+    Otro canal de compra, incluso directo con el hotel,
+    no incluye ingreso a nuestro evento.
+  </p>
+</div>
+
+<a
+  href="https://wa.me/523338146428"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-4 rounded-full bg-[#B76E5D] px-8 py-3 text-white hover:bg-[#A55A3A] transition"
+>
+  Contactar a la agencia
+</a>
+        </div>
+    </details>
   </div>
 </section>
 <section className="min-h-screen flex items-center justify-center px-8 py-24">
