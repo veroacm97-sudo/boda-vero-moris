@@ -20,7 +20,7 @@ const nextPhoto = () => {
 const prevPhoto = () => {
   setCurrentPhoto((prev) => (prev - 1 + photos.length) % photos.length);
 };
-const [showPlayButton, setShowPlayButton] = useState(false);
+const [showPlayButton, setShowPlayButton] = useState(true);
 
  const calculateTimeLeft = () => {
   const now = new Date();
@@ -63,6 +63,18 @@ useEffect(() => {
 </video>
 
       <div className="fixed inset-0 bg-transparent -z-10"></div>
+      {showPlayButton && (
+  <button
+    type="button"
+    onClick={() => {
+      videoRef.current?.play();
+      setShowPlayButton(false);
+    }}
+    className="fixed bottom-10 left-1/2 z-50 -translate-x-1/2 rounded-full bg-[#B76E5D] px-8 py-4 text-white text-lg shadow-xl hover:bg-[#A55A3A] transition"
+  >
+    ▶ Comenzar
+  </button>
+)}
 
       <main className="min-h-screen flex items-center justify-center relative">
         <section className="relative z-10 text-center text-white px-6">
@@ -148,9 +160,6 @@ useEffect(() => {
           <p className="text-gray-600 mb-10">16 de octubre de 2027</p>
 
           <div className="bg-white/80 rounded-3xl px-8 py-12 md:px-12 md:py-12 shadow-sm border border-[#B76E5D]/20">
-            <p className="uppercase tracking-[0.35em] text-xs text-gray-500 mb-8">
-              Hard Rock Vallarta
-            </p>
 
             <div className="space-y-8">
                         <p className="mt-8 text-[#B76E5D] text-2xl">
@@ -189,15 +198,15 @@ useEffect(() => {
     </h2>
 
     <p className="text-lg text-gray-700 leading-8 mb-8">
-      Queremos compartir todo este fin de semana contigo.
-      Nuestra celebración se llevará a cabo en el
-      Hard Rock Vallarta, donde también podrás hospedarte
-      para disfrutar cada momento con nosotros.
+      Nos encantaría compartir todo este fin de semana contigo. 
+      Hemos reservado una tarifa preferencial en Hard Rock Vallarta para que disfrutes cada momento de la celebración con nosotros
     </p>
 
     <details className="mt-8 bg-white/35 rounded-2xl p-5 text-left">
       <summary className="cursor-pointer text-[#B76E5D] text-xl font-semibold text-center">
         Ver tarifas de hospedaje
+        
+        TODO INCLUIDO
       </summary>
 
       <div className="mt-6 space-y-4 text-gray-700 text-center">
@@ -234,6 +243,8 @@ useEffect(() => {
           </p>
           <p className="text-green-600 font-semibold">
             ¡GRATIS!
+            
+            
           </p>
         </div>
       </div>
