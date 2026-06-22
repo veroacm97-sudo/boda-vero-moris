@@ -90,7 +90,7 @@ useEffect(() => {
             Moris
           </h1>
 
-          <p className="mt-8 text-xl">16 de octubre de 2027</p>
+          <p className="mt-8 text-2xl">16 de octubre de 2027</p>
       
 
           <a
@@ -114,7 +114,7 @@ useEffect(() => {
           <p className="text-lg text-gray-700 leading-8">
             Hay personas que hacen nuestra historia más bonita.
             <p className="text-lg text-gray-700 leading-8"></p>
-             Tú eres una de ellas, y nos encantaría compartir este día contigo.
+             Tú eres una de ellas.
           </p>
         </div>
       </section>
@@ -163,7 +163,7 @@ useEffect(() => {
 
             <div className="space-y-8">
                         <p className="mt-8 text-[#B76E5D] text-2xl">
-            Hard Rock Vallarta
+            Hard Rock Vallarta Nuevo Vallarta, Nayarit
           </p>
               <div>
                 <p className="text-4xl text-[#B76E5D] font-title">5:00 PM</p>
@@ -179,8 +179,7 @@ useEffect(() => {
   href="https://maps.google.com/?q=Hard+Rock+Hotel+Vallarta"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-10 py-6 text-sm text-[#B76E5D] hover:bg-[#B76E5D] hover:text-white transition"
->
+className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 text-base ...">
   📍 Cómo llegar
 </a>
 
@@ -198,7 +197,7 @@ useEffect(() => {
     </h2>
 
     <p className="text-lg text-gray-700 leading-8 mb-8">
-      Nos encantaría compartir todo este fin de semana contigo. 
+      Nos encantaría compartir todo el fin de semana contigo. 
       Hemos reservado una tarifa preferencial en Hard Rock Vallarta para que disfrutes cada momento de la celebración con nosotros
     </p>
 
@@ -221,7 +220,7 @@ useEffect(() => {
           </p>
           <p>$9,406 MXN por persona</p>
           <p className="text-sm text-gray-500">
-            13 mensualidades de $662 MXN
+            12 mensualidades de $717 MXN
           </p>
         </div>
 
@@ -231,7 +230,7 @@ useEffect(() => {
           </p>
           <p>$3,600 MXN</p>
           <p className="text-sm text-gray-500">
-            13 mensualidades de $246.15 MXN
+            12 mensualidades de $267 MXN
           </p>
         </div>
 
@@ -246,7 +245,7 @@ useEffect(() => {
           </p>
         </div>
         <p className="mt-4 text-center text-gray-600 italic">
-  Todas las tarifas incluyen hospedaje y plan todo incluido.
+  Las tarifas incluyen hospedaje y plan todo incluido, 3 días y 2 noches.
 </p>
       </div>
     </details>
@@ -273,9 +272,9 @@ useEffect(() => {
 
         <div className="absolute inset-0 flex items-center justify-center text-center px-8">
           <h2 className="text-2xl md:text-3xl text-[#F8F4EE] drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] leading-relaxed max-w-2xl mx-auto">
-            La mejor aventura
+            Sí a todo,
             <br />
-            siempre ha sido compartirla juntos.
+            pero juntos.
           </h2>
         </div>
       </div>
@@ -317,7 +316,7 @@ useEffect(() => {
   </p>
 
   <p className="mt-4 text-[#B76E5D] text-2xl">
-    15 de agosto de 2027
+    31 de agosto de 2026
   </p>
 </div>
     <a
@@ -370,13 +369,14 @@ useEffect(() => {
   <p className="font-semibold">
     Pagos desde el extranjero
   </p>
-  <a>
-    href="https://paypal.me/erviajes"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-[#B76E5D] underline"
-    paypal.me/erviajes
-  </a>
+ <a
+  href="https://paypal.me/erviajes"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[#B76E5D] underline"
+>
+  paypal.me/erviajes
+</a>
 </div>
 
 <div className="bg-[#B76E5D]/10 rounded-2xl p-5">
