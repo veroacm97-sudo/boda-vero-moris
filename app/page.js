@@ -106,7 +106,7 @@ useEffect(() => {
         id="bienvenida"
         className="min-h-screen flex items-center justify-center px-8 py-24"
       >
-        <div className="seccion-cuadro text-center">
+        <div className=" max-w-2xl text-center bg-[#F8F4EE]/75 backdrop-blur-md rounded-3xl p-10 shadow-xl">
           <h2 className="text-5xl text-[#B76E5D] mb-8">
             Queremos compartir este momento contigo
           </h2>
@@ -179,7 +179,7 @@ useEffect(() => {
   href="https://maps.google.com/?q=Hard+Rock+Hotel+Vallarta"
   target="_blank"
   rel="noopener noreferrer"
-className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-12 py-6 text-base ...">
+className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-12 py- text-base ...">
   📍 Cómo llegar
 </a>
 
