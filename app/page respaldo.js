@@ -220,7 +220,7 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
           </p>
           <p>$9,406 MXN por persona</p>
           <p className="text-sm text-gray-500">
-            13 mensualidades de $662 MXN
+            12 mensualidades de $717 MXN
           </p>
         </div>
 
@@ -230,7 +230,7 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
           </p>
           <p>$3,600 MXN</p>
           <p className="text-sm text-gray-500">
-            13 mensualidades de $246.15 MXN
+            12 mensualidades de $267 MXN
           </p>
         </div>
 
@@ -245,7 +245,7 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
           </p>
         </div>
         <p className="mt-4 text-center text-gray-600 italic">
-  Todas las tarifas incluyen hospedaje y plan todo incluido.
+  Las tarifas incluyen hospedaje y plan todo incluido, 3 días y 2 noches.
 </p>
       </div>
     </details>
@@ -316,7 +316,7 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
   </p>
 
   <p className="mt-4 text-[#B76E5D] text-2xl">
-    15 de agosto de 2027
+    31 de agosto de 2026
   </p>
 </div>
     <a
@@ -391,11 +391,14 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
 </div>
 
 <a
-  href="https://wa.me/523338146428"
+  href="https://paypal.me/erviajes"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-block mt-4 rounded-full bg-[#B76E5D] px-8 py-3 text-white hover:bg-[#A55A3A] transition"
+  className="text-[#B76E5D] underline"
 >
+  paypal.me/erviajes
+</a>
+
   Contactar a la agencia
 </a>
         </div>
