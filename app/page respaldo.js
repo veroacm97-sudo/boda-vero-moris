@@ -90,7 +90,7 @@ useEffect(() => {
             Moris
           </h1>
 
-          <p className="mt-8 text-xl">16 de octubre de 2027</p>
+          <p className="mt-8 text-2xl">16 de octubre de 2027</p>
       
 
           <a
@@ -114,7 +114,7 @@ useEffect(() => {
           <p className="text-lg text-gray-700 leading-8">
             Hay personas que hacen nuestra historia más bonita.
             <p className="text-lg text-gray-700 leading-8"></p>
-             Tú eres una de ellas, y nos encantaría compartir este día contigo.
+             Tú eres una de ellas.
           </p>
         </div>
       </section>
@@ -197,7 +197,7 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
     </h2>
 
     <p className="text-lg text-gray-700 leading-8 mb-8">
-      Nos encantaría compartir todo este fin de semana contigo. 
+      Nos encantaría compartir todo el fin de semana contigo. 
       Hemos reservado una tarifa preferencial en Hard Rock Vallarta para que disfrutes cada momento de la celebración con nosotros
     </p>
 
@@ -272,9 +272,9 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
 
         <div className="absolute inset-0 flex items-center justify-center text-center px-8">
           <h2 className="text-2xl md:text-3xl text-[#F8F4EE] drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] leading-relaxed max-w-2xl mx-auto">
-            La mejor aventura
+            Sí a todo,
             <br />
-            siempre ha sido compartirla juntos.
+            pero juntos.
           </h2>
         </div>
       </div>
@@ -369,13 +369,14 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
   <p className="font-semibold">
     Pagos desde el extranjero
   </p>
-  <a>
-    href="https://paypal.me/erviajes"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-[#B76E5D] underline"
-    paypal.me/erviajes
-  </a>
+ <a
+  href="https://paypal.me/erviajes"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[#B76E5D] underline"
+>
+  paypal.me/erviajes
+</a>
 </div>
 
 <div className="bg-[#B76E5D]/10 rounded-2xl p-5">
@@ -391,14 +392,11 @@ className="inline-block mt-6 rounded-full border border-[#B76E5D]/40 px-6 py-3 t
 </div>
 
 <a
-  href="https://paypal.me/erviajes"
+  href="https://wa.me/523338146428"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-[#B76E5D] underline"
+  className="inline-block mt-4 rounded-full bg-[#B76E5D] px-8 py-3 text-white hover:bg-[#A55A3A] transition"
 >
-  paypal.me/erviajes
-</a>
-
   Contactar a la agencia
 </a>
         </div>
