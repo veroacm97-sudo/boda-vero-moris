@@ -82,13 +82,13 @@ useEffect(() => {
             Nuestra Boda
           </p>
 
-          <h1 className="mt-4 text-5xl md:text-7xl font-title font-light">
-  <span className="italic">Verónica</span>
-  <br />
-  <span className="text-4xl not-italic">&</span>
-  <br />
-  <span className="italic">Moris</span>
-</h1>
+          <h1 className="font-script text-6xl md:text-8xl">
+            Verónica
+            <br />
+            <span className="text-4xl">&</span>
+            <br />
+            Moris
+          </h1>
 
           <p className="mt-8 text-2xl">16 de octubre de 2027</p>
       
